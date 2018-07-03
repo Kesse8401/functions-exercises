@@ -94,13 +94,13 @@ Convert it to celsius and output "NN°F is NN°C." */
 function celsiusToFahrenheit(x) {
     let celcius = 1;
     const conversionCtoF = celcius * 9 / 5 + 32;
-    return  x + " °C is " + conversionCtoF + "°F";
+    return  x + " &#8451; is " + conversionCtoF + "&#8457;";
 };
 
 function fahrenheitToCelsius(z) {
     let fahrenheit = 1;
     const conversionFtoC = (fahrenheit - 32) * 5 / 9;
-    return  z + " &#8451;F is " + conversionFtoC + "&#8451;C";
+    return  z + " &#8457; is " + conversionFtoC + "&#8451;";
 };
 
 document.getElementById("k").innerHTML = celsiusToFahrenheit(3);
