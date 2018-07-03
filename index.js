@@ -56,4 +56,17 @@ function calculateSupply(age, amountPerDay) {
 
 document.getElementById("g").innerHTML = calculateSupply(50, 1);
 document.getElementById("h").innerHTML = calculateSupply(60, 2);
-document.getElementById("i").innerHTML = calculateSupply(70, 3);
+
+/* Create 2 functions that calculate properties of a circle, using the definitions here.
+Create a function called calcCircumfrence:
+Pass the radius to the function.
+Calculate the circumference based on the radius, and output "The circumference is NN".
+Create a function called calcArea:
+Pass the radius to the function.
+Calculate the area based on the radius, and output "The area is NN". */
+
+function calcCircumfrence(radius) {
+    return "The circumference is " + (2 * 3.141592) * radius;
+};
+
+document.getElementById("i").innerHTML = calcCircumfrence(6);
