@@ -24,3 +24,5 @@ function tellFortune(job, place, name, no) {
 };
 
 document.getElementById("c").innerHTML = tellFortune("nurse", "Yemen", "Bob", 3);
+document.getElementById("d").innerHTML = tellFortune("actress", "USA", "George Clooney", 0);
+document.getElementById("e").innerHTML = tellFortune("surgeon", "UK", "Javi", 1);
