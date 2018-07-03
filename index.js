@@ -81,3 +81,27 @@ function calcArea(radius) {
 };
 
 document.getElementById("j").innerHTML = calcArea(3);
+
+/* Create a function called celsiusToFahrenheit:
+
+Store a celsius temperature into a variable.
+Convert it to fahrenheit and output "NN°C is NN°F".
+Create a function called fahrenheitToCelsius:
+
+Now store a fahrenheit temperature into a variable.
+Convert it to celsius and output "NN°F is NN°C." */
+
+function celsiusToFahrenheit(x) {
+    let celcius = 1;
+    const conversionCtoF = celcius * 9 / 5 + 32;
+    return  x + " °C is " + conversionCtoF + "°F";
+};
+
+function fahrenheitToCelsius(z) {
+    let fahrenheit = 1;
+    const conversionFtoC = fahrenheit - 32 * 5 / 9;
+    return  z + " °F is " + conversionFtoC + "°C";
+};
+
+document.getElementById("k").innerHTML = celsiusToFahrenheit(3);
+document.getElementById("l").innerHTML = fahrenheitToCelsius(3);
