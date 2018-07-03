@@ -7,7 +7,7 @@ document.getElementById("a").innerHTML = test(5, 3);
 // Write a JavaScript function that reverse a number
 
 function reverse(n) {
-    n = n + "";
+    n = n + ""; //variable casting
     return n.split("").reverse().join("");
 };
 
@@ -36,7 +36,7 @@ Call the function three times with different sets of values.
 Bonus: Add an additional argument to the function that takes the conversion rate of human to dog years. */
 
 function calculateDogAge(age) {
-    return "Your dog age is: " + age * 7;
+    return "Your dog age is: " + (age * 7);
 };
 
 document.getElementById("f").innerHTML = calculateDogAge(3);
