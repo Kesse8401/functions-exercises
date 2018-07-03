@@ -73,7 +73,9 @@ document.getElementById("i").innerHTML = calcCircumfrence(6);
 
 function calcArea(radius) {
     const radiusSquare = Math.pow(radius, 2);
-    return "The area is " + 3.141592 * radiusSquare;
+    let number = 3.141592 * radiusSquare;
+    let niceNumber = number.toFixed(3);
+    return "The area is " + niceNumber;
 };
 
 document.getElementById("j").innerHTML = calcArea(3);
