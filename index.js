@@ -26,3 +26,17 @@ function tellFortune(job, place, name, no) {
 document.getElementById("c").innerHTML = tellFortune("nurse", "Yemen", "Bob", 3);
 document.getElementById("d").innerHTML = tellFortune("actress", "USA", "George Clooney", 0);
 document.getElementById("e").innerHTML = tellFortune("surgeon", "UK", "Javi", 1);
+
+
+/* Write a function named calculateDogAge that:
+takes 1 argument: your puppy's age.
+calculates your dog's age based on the conversion rate of 1 human year to 7 dog years.
+outputs the result to the screen like so: "Your doggie is NN years old in dog years!"
+Call the function three times with different sets of values.
+Bonus: Add an additional argument to the function that takes the conversion rate of human to dog years. */
+
+function calculateDogAge(age) {
+    return "Your dog age is: " + age * 7;
+};
+
+document.getElementById("f").innerHTML = calculateDogAge(3);
