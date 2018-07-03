@@ -50,7 +50,7 @@ Bonus: Accept floating point values for amount per day, and round the result to 
 
 function calculateSupply(age, amountPerDay) {
     const maxAge = 80;
-    let totalNeeded = (numPerDay * 365) * (maxAge - age);
+    let totalNeeded = (amountPerDay * 365) * (maxAge - age);
     return "You will need " + totalNeeded + " to last you until the ripe old age of " + maxAge;
 };
 
