@@ -20,7 +20,7 @@ outputs your fortune to the screen like so: "You will be a X in Y, and married t
 Call that function 3 times with 3 different values for the arguments. */
 
 function tellFortune(job, place, name, no) {
-    return "You will be a " + (job) + "in" (place) ", and married to " + (name) + "with " + (no) + "kids."
+    return "You will be a " + (job) + "in" (place) + ", and married to " + (name) + "with " + (no) + "kids."
 };
 
 document.getElementById("c").innerHTML = tellFortune("nurse", "Yemen", "Bob", 3);
