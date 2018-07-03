@@ -11,4 +11,5 @@ function reverse(n) {
     return name.split("").reverse().join("");
 };
 
+console.log(reverse(123));
 document.getElementById("b").innerHTML = reverse(123);
