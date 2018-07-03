@@ -48,9 +48,9 @@ outputs the result to the screen like so: "You will need NN to last you until th
 Call that function three times, passing in different values each time.
 Bonus: Accept floating point values for amount per day, and round the result to a round number. */
 
-function calculateSupply(amount, age) {
+function calculateSupply(age, amountPerDay) {
     const maxAge = 80;
-    let amountPerDay = (maxAge - 34) * 365;
+    let totalNeed = (maxAge - age) * (amountPerDay * 365);
     return "You will need " + amountPerDay + " to last you until the ripe old age of " + maxAge;
 };
 
