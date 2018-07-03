@@ -6,7 +6,7 @@ document.getElementById("par").innerHTML = myFunction(5, 3);
 
 // Write a JavaScript function that reverse a number
 
-function reverse() {
+function reverse(n) {
     n = n + "";
     return name.split("").reverse().join("");
 };
