@@ -8,7 +8,7 @@ document.getElementById("a").innerHTML = test(5, 3);
 
 function reverse(n) {
     n = n + "";
-    return name.split("").reverse().join("");
+    return n.split("").reverse().join("");
 };
 
 console.log(reverse(123));
