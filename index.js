@@ -54,4 +54,6 @@ function calculateSupply(amount, age) {
     return "You will need " + amountPerDay + " to last you until the ripe old age of " + maxAge;
 };
 
-document.getElementById("g").innerHTML = calculateSupply(3, 30);
+document.getElementById("g").innerHTML = calculateSupply(1, 30);
+document.getElementById("h").innerHTML = calculateSupply(2, 40);
+document.getElementById("i").innerHTML = calculateSupply(3, 50);
