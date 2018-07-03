@@ -100,6 +100,7 @@ function celsiusToFahrenheit(x) {
 function fahrenheitToCelsius(z) {
     let fahrenheit = 1;
     const conversionFtoC = (fahrenheit - 32) * 5 / 9;
+    let niceNumber = conversionFtoC.toFixed(1);
     return  z + " &#8457; is " + conversionFtoC + "&#8451;";
 };
 
