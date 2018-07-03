@@ -20,7 +20,7 @@ outputs your fortune to the screen like so: "You will be a X in Y, and married t
 Call that function 3 times with 3 different values for the arguments. */
 
 function tellFortune(job, place, name, no) {
-    return "You will be a " + job + " in" + place + " , and married to " + name + " with " + no + " kids.";
+    return "You will be a " + job + " in " + place + " , and married to " + name + " with " + no + " kids.";
 };
 
 document.getElementById("c").innerHTML = tellFortune("nurse", "Yemen", "Bob", 3);
@@ -40,3 +40,18 @@ function calculateDogAge(age) {
 };
 
 document.getElementById("f").innerHTML = calculateDogAge(3);
+
+/* Write a function named calculateSupply that:
+takes 2 arguments: age, amount per day.
+calculates the amount consumed for rest of the life (based on a constant max age).
+outputs the result to the screen like so: "You will need NN to last you until the ripe old age of X"
+Call that function three times, passing in different values each time.
+Bonus: Accept floating point values for amount per day, and round the result to a round number. */
+
+function calculateSupply(amount, age) {
+    const maxAge = 80;
+    const amount = (maxAge - 34) * 365;
+    return "You will need " + amount + " to last you until the ripe old age of " + maxAge;
+};
+
+document.getElementById("g").innerHTML = calculateSupply(3, 70);
