@@ -66,7 +66,9 @@ Pass the radius to the function.
 Calculate the area based on the radius, and output "The area is NN". */
 
 function calcCircumfrence(radius) {
-    return "The circumference is " + (2 * 3.141592) * radius;
+    let number = (2 * 3.141592) * radius;
+    let niceNumber = number.toFixed(3);
+    return "The circumference is " + niceNumber;
 };
 
 document.getElementById("i").innerHTML = calcCircumfrence(6);
