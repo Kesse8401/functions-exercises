@@ -12,4 +12,4 @@ function reverse(n) {
 };
 
 console.log(reverse(123));
-document.getElementById("b").innerHTML = reverse(123);
+document.getElementById("b").innerHTML = reverse(456);
